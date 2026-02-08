@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="icon" type="image.png" href="img/netflix-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+  // Redirect to login if no active user
+  let activeUser = JSON.parse(localStorage.getItem("activeUser"));
+  if (!activeUser) {
+    window.location.href = "login.html";
+  }
+</script>
+
+</head>
+<body>
+      <div class="login-bg">
+      </div>
+
+    <!---------Section - 1 ------------->
+    <div class="section-1">
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="Netflix Logo" width="130px">
+                    </div>
+                    <nav>
+    <ul>
+        <li id="authLink"><a href="login.html" class="btn">Sign In</a></li>
+    </ul>
+    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <h1>Unlimited movies, TV shows and more.</h1><br>
+                        <h4>Watch anywhere. Cancel anytime.</h4><br>
+                        <form action="">
+                            <input type="name" placeholder="Check What's New Movie List">
+                            <a href="home.html" class="btn-1">Watch Now</a>
+                        </form>   
+                        <h4><b>See what's next</b></h4> <br>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr id="header-line">
+    </div>
+    
+</body>
+</html>
