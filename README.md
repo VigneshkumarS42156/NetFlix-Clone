@@ -1,0 +1,1 @@
+This project is a Netflix Clone built using pure HTML, CSS, and JavaScript, focusing on recreating the look and feel of Netflix’s user interface. It includes a Login Page and a Home Page UI, designed to demonstrate frontend development skills without using any frameworks or libraries.
